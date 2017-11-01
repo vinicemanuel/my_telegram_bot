@@ -25,3 +25,5 @@ function getRandonAnswer(){
 function randomInt (low, high) {
     return Math.floor(Math.random() * (high - low) + low);
 }
+
+console.log("aqui teste")
