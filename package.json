@@ -4,7 +4,7 @@
   "description": "meu bot",
   "main": "index.js",
   "scripts": {
-    "start": "node ./TelegramBot.js",
+    "start": "node ./intex.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
