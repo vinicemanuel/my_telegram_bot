@@ -1,23 +1,22 @@
 {
-  "name": "vnc-bot-telegram",
+  "name": "my-telegram-bot",
   "version": "1.0.0",
   "description": "meu bot",
-  "main": "TelegramBot.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinicemanuel/my_telegram_bot.git"
   },
-  "dependencies": {
-    "node-telegram-bot-api": "https://github.com/yagop/node-telegram-bot-api"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "vncemanuel",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinicemanuel/my_telegram_bot/issues"
   },
-  "homepage": "https://github.com/vinicemanuel/my_telegram_bot#readme"
+  "homepage": "https://github.com/vinicemanuel/my_telegram_bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.29.0"
+  }
 }
