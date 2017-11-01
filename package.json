@@ -1,0 +1,20 @@
+{
+  "name": "vnc-bot-telegram",
+  "version": "1.0.0",
+  "description": "meu bot",
+  "main": "TelegramBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node TelegramBot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicemanuel/my_telegram_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicemanuel/my_telegram_bot/issues"
+  },
+  "homepage": "https://github.com/vinicemanuel/my_telegram_bot#readme"
+}
