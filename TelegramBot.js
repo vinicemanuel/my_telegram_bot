@@ -12,9 +12,9 @@ bot.on('message', (msg) => {
     console.log(msg.from.first_name)
     //bot.sendMessage(msg.chat.id,"🤘 " + msg.from['first_name'])
     if (msg.from.first_name == 'tonysilva'){
-        bot.sendMessage(msg.chat.id, "toninho arruma uma nega")    
+        bot.sendMessage(msg.chat.id, "toninho arruma uma nega!")    
     }else{
-        bot.sendMessage(msg.chat.id, getRandonAnswer())
+        //bot.sendMessage(msg.chat.id, getRandonAnswer())
     }
 });
 
