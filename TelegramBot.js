@@ -11,7 +11,7 @@ module.exports = function(){
     
     bot.on('message', (msg) => {
         console.log(msg.text)
-        if (msg.from.first_name == 'tonysilva'){
+        if (msg.from.username == 'tonysilva'){
             bot.sendMessage(msg.chat.id, "toninho arruma uma nega!")    
         }else if (msg.text.toLowerCase().includes(botName)){
             bot.sendMessage(msg.chat.id, getRandonAnswer())
